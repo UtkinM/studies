@@ -1,0 +1,138 @@
+body {
+    font-family: Tahoma;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    padding-top: 77px;
+    padding-bottom: 97px;
+}
+
+.header-img {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.header-text {
+    display: inline-block;
+    width: 59%;
+    vertical-align: middle;
+}
+
+.header-text__title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.header-text__subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.header-text__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 35px;
+}
+
+.header-text__price {
+    margin-top: 47px;
+    margin-bottom: 53px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.btn {
+    padding: 22px 43px;
+    border-radius: 5px;
+    border: 2px solid #f05a22;
+    background-color: #f05a22;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.btn-o {
+    background-color: transparent;
+    color: #f05a22;
+    border: 2px solid #f05a22;
+}
+
+.features {
+    border: 1px solid #ffffff;
+    background-color: #f2f2f2;
+}
+
+.features:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.features__title {
+    margin-bottom: 91px;
+    margin-top: 89px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+}
+
+.features-block {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+.features-block__text {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 99px;
+}
+
+.clients__wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clients {
+    margin-bottom: 71px;
+}
+
+.clients__title {
+    margin-top: 99px;
+    margin-bottom: 69px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+}
+
+.clients__img {
+    float: left;
+}
+
+.clients__img {
+   margin-bottom: 40px;
+}
+
+.clients__img:not(:last-child) {
+    margin-right: 31px;
+}

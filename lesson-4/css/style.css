@@ -1,0 +1,74 @@
+@font-face {
+    font-family: ArialMT;
+    src: url(../fonts/arialmt.ttf);
+}
+
+body {
+    font-family: ArialMT, sans-serif;
+    background-color: #f6f6f6;
+}
+
+.container {
+    max-width: 1615px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-top: 138px;
+}
+
+.header__img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 100px;
+    padding-bottom: 102px;
+    padding-left: 100px;
+    width: 43%;
+}
+
+.header-content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.header-content__title {
+    color: #2f2f2f;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.header-content__text {
+    margin-top: 48px;
+    max-width: 640px;
+    color: #2f2f2f;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header-content__price-title {
+    margin-top: 87px;
+    color: #2f2f2f;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header-content__price {
+    margin-top: 36px;
+    margin-bottom: 90px;
+    color: #2f2f2f;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 26px 63px;
+    border: 1px solid #ec744a;
+    background-color: #ec744a;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+}

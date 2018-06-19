@@ -1,0 +1,68 @@
+@import mixin
+
+body
+    font-family: sans-serif
+    background: $newcolor
+    height: 100vh
+    margin: 0
+    padding: 0
+
+.wrap
+    @include flex
+
+.item
+    @include block
+    transition: all 1s
+    position: relative
+    z-index: 100
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+
+    &:after
+        content: ""
+        position: absolute
+        width: 50px
+        height: 50px
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        border-radius: 5px
+        background-color: gray
+        opacity: .5
+
+.colors1
+    background-color: $each
+    &:hover
+        background-color: $hunter
+        transform: rotate(45deg)
+
+.colors2
+    background-color: $hunter
+    &:hover
+        transform: translate(20px, 20px)
+
+.colors3
+    background-color: $wish
+    &:hover
+        transform: skew(30deg)
+
+.colors4
+    background-color: $know
+    &:hover
+        transform: scale(2)
+
+.colors5
+    background-color: $where
+    &:hover
+        transform: rotate(45deg)
+        transform-origin: bottom right
+
+.colors6
+    background-color: $sitting
+    &:hover
+        transform: scale(2, 1)
+
+.colors7
+    background-color: $pheasant
+
+.subtitle
+    color: $each
